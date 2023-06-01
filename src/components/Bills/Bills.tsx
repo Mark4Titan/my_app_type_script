@@ -22,6 +22,7 @@ const Bills = () => {
 
   return (
     <Main them={them}>
+      <h2>{currencyVal.cur === "грн" ? "Рахівниця" : "Abacus"}</h2>
       <MiniHead
         currencyVal={currencyVal}
         total={total}

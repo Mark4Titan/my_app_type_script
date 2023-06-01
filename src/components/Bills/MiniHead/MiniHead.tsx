@@ -21,7 +21,7 @@ const MiniHead: React.FC<ListProps> = ({
   currencyСhange,
 }) => {
   return (
-    <MiniHeader them={them}>
+    <MiniHeader them={them}>      
       <ButtonThem
         poz='grid-column: 1/2'
         them={them}
