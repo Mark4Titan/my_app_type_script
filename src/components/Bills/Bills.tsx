@@ -1,6 +1,4 @@
-import {
-  Main,
-} from "./Bills.styled";
+import { MainBills } from "./Bills.styled";
 
 import Func from "./Func";
 import UsxThems from "../Thems/Thems";
@@ -21,7 +19,7 @@ const Bills = () => {
   } = Func();
 
   return (
-    <Main them={them}>
+    <MainBills them={them}>
       <h2>{currencyVal.cur === "грн" ? "Рахівниця" : "Abacus"}</h2>
       <MiniHead
         currencyVal={currencyVal}
@@ -41,7 +39,7 @@ const Bills = () => {
         them={them}
         currencyVal={currencyVal}
       />
-    </Main>
+    </MainBills>
   );
 };
 export default Bills;
